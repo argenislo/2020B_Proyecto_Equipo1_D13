@@ -1,7 +1,7 @@
 `timescale 1ns/1ns
 
 //1 - Declaracion del modulo
-module TMux();
+module TBMux();
 
 //2 - Declaracion de cablesy registros
 reg [31:0]TinMem, TinRes;

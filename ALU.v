@@ -1,7 +1,7 @@
 //1 - Declaracion del modulo
 module ALU(
 	input [31:0]OP1, OP2,
-	input [3:0]ALUSel,
+	input [2:0]ALUSel,
 	output reg [31:0]Res,
 	output reg Z
 );

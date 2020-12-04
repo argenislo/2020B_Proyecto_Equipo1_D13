@@ -6,7 +6,7 @@ module ALU(
 	output reg Z
 );
 
-//2 - Declaración de cables y registros
+//2 - DeclaraciÃ³n de cables y registros
 
 //3 - Cuerpo del modulo
 
@@ -69,11 +69,6 @@ begin
 				Z = 1;
 			else
 				Z = 0;
-		end
-	3'b111:
-		begin
-			Res = 32'bz;		//NOP
-			Z = 1'bz;
 		end
 	default:
 		begin

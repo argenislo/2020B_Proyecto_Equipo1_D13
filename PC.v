@@ -1,6 +1,7 @@
 //1 - Declaracion del modulo
 module PC(
 	input [31:0]muxSource,
+	input clk;
 	output reg [31:0]Address
 );
 
@@ -15,7 +16,7 @@ begin
 end
 
 //Bloque secuencial
-always @(muxSource)
+	always @(posedge clk)
 begin
 	Address = muxSource;
 end

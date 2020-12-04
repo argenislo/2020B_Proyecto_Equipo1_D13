@@ -1,7 +1,7 @@
 //1 - Declaracion del modulo
 module PC(
 	input [31:0]muxSource,
-	input clk;
+	input clk,
 	output reg [31:0]Address
 );
 

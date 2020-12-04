@@ -30,7 +30,7 @@ begin
 		6'b101010:		//SLT
 			Operacion = 3'b110;
 		6'b000000:		//NOP
-			Operacion = 3'b111;
+			Operacion = 3'bz;
 		default:
 			Operacion = 3'bz;
 		endcase

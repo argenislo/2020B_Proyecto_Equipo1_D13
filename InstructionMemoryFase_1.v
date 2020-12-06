@@ -5,7 +5,7 @@ module InstructionMemory(
 );
 
 //2 - Declaracion de cables y registros
-reg [31:0]inMem [0:127];
+	reg [31:0]inMem [0:255];
 
 //3 - Cuerpo del modulo
 

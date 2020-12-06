@@ -14,7 +14,7 @@ wire [4:0]c11;
 //Instancias
 PCFase_1 pc1(
 	.muxSource(c1),
-	.clkFase,
+	.clk(clkFase),
 	.Address(c2)
 );
 
